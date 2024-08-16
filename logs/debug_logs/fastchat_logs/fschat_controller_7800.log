@@ -1,0 +1,429 @@
+2024-08-08 16:33:16 | INFO | controller | args: Namespace(host='0.0.0.0', port=7800, dispatch_method='shortest_queue', ssl=False)
+2024-08-08 16:33:16 | ERROR | stderr | INFO:     Started server process [200]
+2024-08-08 16:33:16 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-08-08 16:33:16 | ERROR | stderr | INFO:     Application startup complete.
+2024-08-08 16:33:16 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:7800 (Press CTRL+C to quit)
+2024-08-08 16:33:34 | INFO | stdout | INFO:     127.0.0.1:37258 - "POST /list_models HTTP/1.1" 200 OK
+2024-08-08 16:33:44 | INFO | stdout | INFO:     127.0.0.1:55642 - "POST /list_models HTTP/1.1" 200 OK
+2024-08-08 16:33:54 | INFO | stdout | INFO:     127.0.0.1:43604 - "POST /list_models HTTP/1.1" 200 OK
+2024-08-08 16:34:04 | INFO | stdout | INFO:     127.0.0.1:53930 - "POST /list_models HTTP/1.1" 200 OK
+2024-08-08 16:34:14 | INFO | stdout | INFO:     127.0.0.1:50760 - "POST /list_models HTTP/1.1" 200 OK
+2024-08-08 16:34:24 | INFO | stdout | INFO:     127.0.0.1:37074 - "POST /list_models HTTP/1.1" 200 OK
+2024-08-08 16:34:25 | INFO | controller | Register a new worker: http://0.0.0.0:7801
+2024-08-08 16:34:25 | INFO | controller | Register done: http://0.0.0.0:7801, {'model_names': ['Qwen1.5-32B-Chat'], 'speed': 1, 'queue_length': 0}
+2024-08-08 16:34:25 | INFO | stdout | INFO:     127.0.0.1:37088 - "POST /register_worker HTTP/1.1" 200 OK
+2024-08-08 16:34:34 | INFO | stdout | INFO:     127.0.0.1:48012 - "POST /list_models HTTP/1.1" 200 OK
+2024-08-08 16:35:10 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:35:10 | INFO | stdout | INFO:     127.0.0.1:54596 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:35:55 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:35:55 | INFO | stdout | INFO:     127.0.0.1:46224 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:36:40 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:36:40 | INFO | stdout | INFO:     127.0.0.1:56684 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:37:25 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:37:25 | INFO | stdout | INFO:     127.0.0.1:47352 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:38:10 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:38:10 | INFO | stdout | INFO:     127.0.0.1:40280 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:38:55 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:38:55 | INFO | stdout | INFO:     127.0.0.1:56606 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:39:41 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:39:41 | INFO | stdout | INFO:     127.0.0.1:44402 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:40:26 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:40:26 | INFO | stdout | INFO:     127.0.0.1:47054 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:41:11 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:41:11 | INFO | stdout | INFO:     127.0.0.1:58972 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:41:56 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:41:56 | INFO | stdout | INFO:     127.0.0.1:58566 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:42:41 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:42:41 | INFO | stdout | INFO:     127.0.0.1:49794 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:43:26 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:43:26 | INFO | stdout | INFO:     127.0.0.1:38620 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:44:11 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:44:11 | INFO | stdout | INFO:     127.0.0.1:51912 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:44:56 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:44:56 | INFO | stdout | INFO:     127.0.0.1:44628 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:45:41 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:45:41 | INFO | stdout | INFO:     127.0.0.1:47798 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:46:26 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:46:26 | INFO | stdout | INFO:     127.0.0.1:44030 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:47:11 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:47:11 | INFO | stdout | INFO:     127.0.0.1:57640 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:47:56 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:47:56 | INFO | stdout | INFO:     127.0.0.1:52800 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:48:41 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:48:41 | INFO | stdout | INFO:     127.0.0.1:57334 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:49:26 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:49:26 | INFO | stdout | INFO:     127.0.0.1:50208 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:50:11 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:50:11 | INFO | stdout | INFO:     127.0.0.1:59946 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:50:56 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:50:56 | INFO | stdout | INFO:     127.0.0.1:53828 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:51:41 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:51:41 | INFO | stdout | INFO:     127.0.0.1:47098 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:52:26 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:52:26 | INFO | stdout | INFO:     127.0.0.1:42344 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:53:11 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:53:11 | INFO | stdout | INFO:     127.0.0.1:54658 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:53:56 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:53:56 | INFO | stdout | INFO:     127.0.0.1:39376 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [0.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54552 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [1.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54568 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [2.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54572 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [3.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54588 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [4.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54602 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [5.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54612 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [6.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54618 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [7.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54620 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [8.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54632 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [9.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54648 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [10.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54652 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [11.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54668 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [12.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54670 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [13.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54686 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [14.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54700 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [15.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54712 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [16.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54728 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [17.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54736 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [18.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54746 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [19.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54748 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [20.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54752 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [21.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54754 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54766 - "POST /list_models HTTP/1.1" 200 OK
+2024-08-08 16:54:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [22.0], ret: http://0.0.0.0:7801
+2024-08-08 16:54:39 | INFO | stdout | INFO:     127.0.0.1:54778 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:54:41 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:54:41 | INFO | stdout | INFO:     127.0.0.1:54784 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:55:26 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:55:26 | INFO | stdout | INFO:     127.0.0.1:50542 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [0.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35016 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [1.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35032 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [2.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35040 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [3.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35042 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [4.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35054 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [5.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35062 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [6.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35066 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [7.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35074 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [8.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35086 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [9.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35096 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [10.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35102 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [11.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35114 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [12.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35128 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [13.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35134 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [14.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35144 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [15.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35148 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [16.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35160 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [17.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35168 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [18.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35170 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [19.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35186 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [20.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35190 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35198 - "POST /list_models HTTP/1.1" 200 OK
+2024-08-08 16:56:05 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [21.0], ret: http://0.0.0.0:7801
+2024-08-08 16:56:05 | INFO | stdout | INFO:     127.0.0.1:35206 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:56:11 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:56:11 | INFO | stdout | INFO:     127.0.0.1:57274 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:56:56 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:56:56 | INFO | stdout | INFO:     127.0.0.1:52844 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:57:41 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:57:41 | INFO | stdout | INFO:     127.0.0.1:55548 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:58:26 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:58:26 | INFO | stdout | INFO:     127.0.0.1:46962 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:59:12 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:59:12 | INFO | stdout | INFO:     127.0.0.1:47700 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [0.0], ret: http://0.0.0.0:7801
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55184 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [1.0], ret: http://0.0.0.0:7801
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55186 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [2.0], ret: http://0.0.0.0:7801
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55190 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [3.0], ret: http://0.0.0.0:7801
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55198 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [4.0], ret: http://0.0.0.0:7801
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55208 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [5.0], ret: http://0.0.0.0:7801
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55212 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [6.0], ret: http://0.0.0.0:7801
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55226 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [7.0], ret: http://0.0.0.0:7801
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55236 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [8.0], ret: http://0.0.0.0:7801
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55246 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [9.0], ret: http://0.0.0.0:7801
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55250 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [10.0], ret: http://0.0.0.0:7801
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55258 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [11.0], ret: http://0.0.0.0:7801
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55274 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [12.0], ret: http://0.0.0.0:7801
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55278 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [13.0], ret: http://0.0.0.0:7801
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55282 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [14.0], ret: http://0.0.0.0:7801
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55294 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55304 - "POST /list_models HTTP/1.1" 200 OK
+2024-08-08 16:59:34 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [15.0], ret: http://0.0.0.0:7801
+2024-08-08 16:59:34 | INFO | stdout | INFO:     127.0.0.1:55316 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 16:59:57 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 16:59:57 | INFO | stdout | INFO:     127.0.0.1:41108 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:00:42 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:00:42 | INFO | stdout | INFO:     127.0.0.1:50986 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:01:27 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [0.0], ret: http://0.0.0.0:7801
+2024-08-08 17:01:27 | INFO | stdout | INFO:     127.0.0.1:43390 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:01:27 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [1.0], ret: http://0.0.0.0:7801
+2024-08-08 17:01:27 | INFO | stdout | INFO:     127.0.0.1:43404 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:01:27 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [2.0], ret: http://0.0.0.0:7801
+2024-08-08 17:01:27 | INFO | stdout | INFO:     127.0.0.1:43418 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:01:27 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [3.0], ret: http://0.0.0.0:7801
+2024-08-08 17:01:27 | INFO | stdout | INFO:     127.0.0.1:43428 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:01:27 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [4.0], ret: http://0.0.0.0:7801
+2024-08-08 17:01:27 | INFO | stdout | INFO:     127.0.0.1:43430 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:01:27 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [5.0], ret: http://0.0.0.0:7801
+2024-08-08 17:01:27 | INFO | stdout | INFO:     127.0.0.1:43432 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:01:27 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [6.0], ret: http://0.0.0.0:7801
+2024-08-08 17:01:27 | INFO | stdout | INFO:     127.0.0.1:43448 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:01:27 | INFO | stdout | INFO:     127.0.0.1:43452 - "POST /list_models HTTP/1.1" 200 OK
+2024-08-08 17:01:27 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [7.0], ret: http://0.0.0.0:7801
+2024-08-08 17:01:27 | INFO | stdout | INFO:     127.0.0.1:43458 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:01:27 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:01:27 | INFO | stdout | INFO:     127.0.0.1:43468 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:02:12 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:02:12 | INFO | stdout | INFO:     127.0.0.1:37022 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:02:57 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:02:57 | INFO | stdout | INFO:     127.0.0.1:57604 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [0.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47726 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [1.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47734 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [2.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47740 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [3.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47750 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [4.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47764 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [5.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47780 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [6.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47792 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [7.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47808 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [8.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47818 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [9.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47832 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [10.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47840 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [11.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47844 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [12.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47860 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [13.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47872 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [14.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47882 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [15.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47890 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [16.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47900 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [17.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47912 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [18.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47920 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [19.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47924 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [20.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47928 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [21.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47930 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [22.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47936 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [23.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47946 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [24.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47956 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47966 - "POST /list_models HTTP/1.1" 200 OK
+2024-08-08 17:03:39 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [25.0], ret: http://0.0.0.0:7801
+2024-08-08 17:03:39 | INFO | stdout | INFO:     127.0.0.1:47982 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:03:42 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:03:42 | INFO | stdout | INFO:     127.0.0.1:47990 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [0.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:34418 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [1.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:34422 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [2.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:34436 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [3.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:34444 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [4.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:34446 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [5.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56450 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [6.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56452 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [7.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56454 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [8.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56462 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [9.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56466 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [10.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56470 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [11.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56474 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [12.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56488 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [13.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56496 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [14.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56500 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [15.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56510 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [16.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56518 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [17.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56520 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [18.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56524 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [19.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56530 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [20.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56536 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [21.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56542 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [22.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56546 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [23.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56558 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [24.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56564 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [25.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56576 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [26.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56578 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [27.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56590 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [28.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56604 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [29.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56612 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [30.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56614 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [31.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56622 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [32.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56636 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [33.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56652 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [34.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56666 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [35.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56668 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [36.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56674 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56684 - "POST /list_models HTTP/1.1" 200 OK
+2024-08-08 17:04:06 | INFO | controller | names: ['http://0.0.0.0:7801'], queue_lens: [37.0], ret: http://0.0.0.0:7801
+2024-08-08 17:04:06 | INFO | stdout | INFO:     127.0.0.1:56700 - "POST /get_worker_address HTTP/1.1" 200 OK
+2024-08-08 17:04:27 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:04:27 | INFO | stdout | INFO:     127.0.0.1:52288 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:05:12 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:05:12 | INFO | stdout | INFO:     127.0.0.1:37680 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:05:57 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:05:57 | INFO | stdout | INFO:     127.0.0.1:36250 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:06:42 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:06:42 | INFO | stdout | INFO:     127.0.0.1:43942 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:07:27 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:07:27 | INFO | stdout | INFO:     127.0.0.1:55904 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:08:12 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:08:12 | INFO | stdout | INFO:     127.0.0.1:35610 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:08:57 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:08:57 | INFO | stdout | INFO:     127.0.0.1:39952 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:09:42 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:09:42 | INFO | stdout | INFO:     127.0.0.1:58724 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:10:27 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:10:27 | INFO | stdout | INFO:     127.0.0.1:53708 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:11:12 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:11:12 | INFO | stdout | INFO:     127.0.0.1:55300 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:11:57 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:11:57 | INFO | stdout | INFO:     127.0.0.1:57944 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:12:42 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:12:42 | INFO | stdout | INFO:     127.0.0.1:39372 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:13:27 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:13:27 | INFO | stdout | INFO:     127.0.0.1:35670 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:14:12 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:14:12 | INFO | stdout | INFO:     127.0.0.1:48516 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:14:57 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:14:57 | INFO | stdout | INFO:     127.0.0.1:37610 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:15:42 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:15:42 | INFO | stdout | INFO:     127.0.0.1:33814 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:16:27 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:16:27 | INFO | stdout | INFO:     127.0.0.1:55430 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:17:12 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:17:12 | INFO | stdout | INFO:     127.0.0.1:41624 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:17:58 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:17:58 | INFO | stdout | INFO:     127.0.0.1:56082 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:18:43 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:18:43 | INFO | stdout | INFO:     127.0.0.1:40460 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:19:28 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:19:28 | INFO | stdout | INFO:     127.0.0.1:44434 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:20:13 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:20:13 | INFO | stdout | INFO:     127.0.0.1:52338 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:20:58 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:20:58 | INFO | stdout | INFO:     127.0.0.1:41158 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:21:43 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:21:43 | INFO | stdout | INFO:     127.0.0.1:46764 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:22:28 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:22:28 | INFO | stdout | INFO:     127.0.0.1:54788 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:23:13 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:23:13 | INFO | stdout | INFO:     127.0.0.1:35906 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:23:58 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:23:58 | INFO | stdout | INFO:     127.0.0.1:42938 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:24:43 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:24:43 | INFO | stdout | INFO:     127.0.0.1:53912 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:25:28 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:25:28 | INFO | stdout | INFO:     127.0.0.1:43114 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:26:13 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:26:13 | INFO | stdout | INFO:     127.0.0.1:59618 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:26:58 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:26:58 | INFO | stdout | INFO:     127.0.0.1:49514 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-08-08 17:27:43 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-08-08 17:27:43 | INFO | stdout | INFO:     127.0.0.1:50308 - "POST /receive_heart_beat HTTP/1.1" 200 OK

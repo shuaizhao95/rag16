@@ -1,0 +1,178 @@
+2024-06-16 11:20:45 | INFO | model_worker | args: Namespace(host='0.0.0.0', port=7801, worker_address='http://0.0.0.0:7801', controller_address='http://0.0.0.0:7800', model_path='/model_repos/CustomLLM/Qwen1.5-32B-Chat', revision='main', device='cuda', gpus='0', num_gpus=1, max_gpu_memory=None, dtype='bfloat16', load_8bit=True, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, enable_exllama=False, exllama_max_seq_len=4096, exllama_gpu_split=None, exllama_cache_8bit=False, enable_xft=False, xft_max_seq_len=4096, xft_dtype=None, model_names=None, conv_template='qwen-7b-chat', embed_in_truncate=False, limit_worker_concurrency=5, stream_interval=2, no_register=False, seed=None, debug=False, ssl=False)
+2024-06-16 11:20:45 | INFO | model_worker | Loading the model ['Qwen1.5-32B-Chat'] on worker 4563d3c5 ...
+2024-06-16 11:20:46 | ERROR | stderr | /usr/local/lib/python3.10/dist-packages/transformers/modeling_utils.py:4371: FutureWarning: `_is_quantized_training_enabled` is going to be deprecated in transformers 4.39.0. Please use `model.hf_quantizer.is_trainable` instead
+2024-06-16 11:20:46 | ERROR | stderr |   warnings.warn(
+2024-06-16 11:20:46 | ERROR | stderr |   0%|          | 0/17 [00:00<?, ?it/s]
+2024-06-16 11:20:52 | ERROR | stderr |   6%|▌         | 1/17 [00:05<01:30,  5.68s/it]
+2024-06-16 11:21:00 | ERROR | stderr |  12%|█▏        | 2/17 [00:14<01:49,  7.30s/it]
+2024-06-16 11:21:05 | ERROR | stderr |  18%|█▊        | 3/17 [00:18<01:26,  6.15s/it]
+2024-06-16 11:21:10 | ERROR | stderr |  24%|██▎       | 4/17 [00:23<01:13,  5.65s/it]
+2024-06-16 11:21:13 | ERROR | stderr |  29%|██▉       | 5/17 [00:27<00:59,  4.98s/it]
+2024-06-16 11:21:19 | ERROR | stderr |  35%|███▌      | 6/17 [00:32<00:55,  5.08s/it]
+2024-06-16 11:21:24 | ERROR | stderr |  41%|████      | 7/17 [00:37<00:50,  5.02s/it]
+2024-06-16 11:21:29 | ERROR | stderr |  47%|████▋     | 8/17 [00:43<00:46,  5.11s/it]
+2024-06-16 11:21:34 | ERROR | stderr |  53%|█████▎    | 9/17 [00:47<00:40,  5.05s/it]
+2024-06-16 11:21:39 | ERROR | stderr |  59%|█████▉    | 10/17 [00:53<00:35,  5.14s/it]
+2024-06-16 11:21:44 | ERROR | stderr |  65%|██████▍   | 11/17 [00:58<00:30,  5.03s/it]
+2024-06-16 11:21:49 | ERROR | stderr |  71%|███████   | 12/17 [01:02<00:24,  4.98s/it]
+2024-06-16 11:21:54 | ERROR | stderr |  76%|███████▋  | 13/17 [01:08<00:20,  5.03s/it]
+2024-06-16 11:21:59 | ERROR | stderr |  82%|████████▏ | 14/17 [01:12<00:14,  4.98s/it]
+2024-06-16 11:22:01 | ERROR | stderr |  88%|████████▊ | 15/17 [01:15<00:08,  4.20s/it]
+2024-06-16 11:22:06 | ERROR | stderr |  94%|█████████▍| 16/17 [01:20<00:04,  4.38s/it]
+2024-06-16 11:22:11 | ERROR | stderr | 100%|██████████| 17/17 [01:25<00:00,  4.70s/it]
+2024-06-16 11:22:11 | ERROR | stderr | 100%|██████████| 17/17 [01:25<00:00,  5.04s/it]
+2024-06-16 11:22:11 | ERROR | stderr | 
+2024-06-16 11:22:12 | INFO | model_worker | Register to controller
+2024-06-16 11:22:12 | ERROR | stderr | INFO:     Started server process [202]
+2024-06-16 11:22:12 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-06-16 11:22:12 | ERROR | stderr | INFO:     Application startup complete.
+2024-06-16 11:22:12 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:7801 (Press CTRL+C to quit)
+2024-06-16 11:22:57 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:23:42 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:24:27 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:25:12 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:25:57 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:26:42 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:27:27 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:28:12 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:28:57 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:29:42 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:30:27 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:31:12 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:31:57 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:32:42 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:33:27 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:34:12 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:34:57 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:35:42 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:36:27 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:37:12 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:37:58 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:38:43 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:39:28 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:40:13 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:40:58 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:41:43 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:42:28 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:43:13 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:43:58 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:44:43 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:45:28 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:46:13 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:46:58 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:47:43 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:48:28 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:49:13 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:49:58 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:50:43 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:51:28 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:52:13 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:52:58 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:53:43 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:54:28 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:55:13 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:55:58 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:56:43 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:57:28 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:58:14 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:58:59 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 11:59:44 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:00:29 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:01:14 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:01:59 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:02:44 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:03:29 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:04:14 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:04:59 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:05:44 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:06:29 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:07:14 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:07:59 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:08:44 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:09:29 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:10:14 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:10:59 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:11:44 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:12:29 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:13:14 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:13:59 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:14:44 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:15:29 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:16:14 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:16:59 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:17:44 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:18:30 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:19:15 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:20:00 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:20:45 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:21:30 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:22:15 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:23:00 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:23:45 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:24:30 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:25:15 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:26:00 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:26:45 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:27:30 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:28:15 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:29:00 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:29:45 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:30:30 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:31:15 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:32:00 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:32:45 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:33:30 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:34:15 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:35:00 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:35:45 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:36:30 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:37:15 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:38:01 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:38:46 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:39:31 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:40:16 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:41:01 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:41:46 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:42:31 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:43:16 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:44:01 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:44:46 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:45:31 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:46:16 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:47:01 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:47:46 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:48:31 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:49:16 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:50:01 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:50:46 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:51:31 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:52:16 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:53:01 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:53:46 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:54:31 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:55:16 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:56:01 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:56:46 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:57:31 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:58:16 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:59:01 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 12:59:46 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:00:32 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:01:17 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:02:02 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:02:47 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:03:32 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:04:17 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:05:02 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:05:47 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:06:32 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:07:17 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:08:02 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:08:47 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:09:32 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:10:17 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:11:02 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:11:47 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:12:32 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:13:17 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 
+2024-06-16 13:14:02 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: 4563d3c5. 

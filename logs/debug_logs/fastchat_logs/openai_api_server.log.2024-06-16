@@ -1,0 +1,5 @@
+2024-06-16 11:20:40 | INFO | openai_api_server | args: Namespace(host='0.0.0.0', port=7802, controller_address='http://0.0.0.0:7800', allow_credentials=False, allowed_origins=['*'], allowed_methods=['*'], allowed_headers=['*'], api_keys=None, ssl=False)
+2024-06-16 11:20:40 | ERROR | stderr | INFO:     Started server process [201]
+2024-06-16 11:20:40 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-06-16 11:20:40 | ERROR | stderr | INFO:     Application startup complete.
+2024-06-16 11:20:40 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:7802 (Press CTRL+C to quit)

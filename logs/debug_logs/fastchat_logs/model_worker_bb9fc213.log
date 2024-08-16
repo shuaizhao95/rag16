@@ -1,0 +1,82 @@
+2024-08-08 16:25:43 | INFO | model_worker | args: Namespace(host='0.0.0.0', port=7801, worker_address='http://0.0.0.0:7801', controller_address='http://0.0.0.0:7800', model_path='/model_repos/CustomLLM/Qwen1.5-32B-Chat', revision='main', device='cuda', gpus='0', num_gpus=1, max_gpu_memory=None, dtype='bfloat16', load_8bit=True, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, enable_exllama=False, exllama_max_seq_len=4096, exllama_gpu_split=None, exllama_cache_8bit=False, enable_xft=False, xft_max_seq_len=4096, xft_dtype=None, model_names=None, conv_template='qwen-7b-chat', embed_in_truncate=False, limit_worker_concurrency=5, stream_interval=2, no_register=False, seed=None, debug=False, ssl=False)
+2024-08-08 16:25:43 | INFO | model_worker | Loading the model ['Qwen1.5-32B-Chat'] on worker bb9fc213 ...
+2024-08-08 16:25:44 | ERROR | stderr | /usr/local/lib/python3.10/dist-packages/transformers/modeling_utils.py:4371: FutureWarning: `_is_quantized_training_enabled` is going to be deprecated in transformers 4.39.0. Please use `model.hf_quantizer.is_trainable` instead
+2024-08-08 16:25:44 | ERROR | stderr |   warnings.warn(
+2024-08-08 16:25:44 | ERROR | stderr |   0%|          | 0/17 [00:00<?, ?it/s]
+2024-08-08 16:25:49 | ERROR | stderr |   6%|▌         | 1/17 [00:05<01:21,  5.12s/it]
+2024-08-08 16:25:56 | ERROR | stderr |  12%|█▏        | 2/17 [00:12<01:32,  6.18s/it]
+2024-08-08 16:26:00 | ERROR | stderr |  18%|█▊        | 3/17 [00:15<01:11,  5.09s/it]
+2024-08-08 16:26:04 | ERROR | stderr |  24%|██▎       | 4/17 [00:19<01:00,  4.65s/it]
+2024-08-08 16:26:07 | ERROR | stderr |  29%|██▉       | 5/17 [00:23<00:50,  4.22s/it]
+2024-08-08 16:26:11 | ERROR | stderr |  35%|███▌      | 6/17 [00:26<00:43,  4.00s/it]
+2024-08-08 16:26:15 | ERROR | stderr |  41%|████      | 7/17 [00:30<00:39,  3.95s/it]
+2024-08-08 16:26:19 | ERROR | stderr |  47%|████▋     | 8/17 [00:34<00:35,  3.95s/it]
+2024-08-08 16:26:22 | ERROR | stderr |  53%|█████▎    | 9/17 [00:38<00:30,  3.86s/it]
+2024-08-08 16:26:26 | ERROR | stderr |  59%|█████▉    | 10/17 [00:41<00:26,  3.77s/it]
+2024-08-08 16:26:30 | ERROR | stderr |  65%|██████▍   | 11/17 [00:45<00:23,  3.88s/it]
+2024-08-08 16:26:34 | ERROR | stderr |  71%|███████   | 12/17 [00:49<00:19,  3.87s/it]
+2024-08-08 16:26:37 | ERROR | stderr |  76%|███████▋  | 13/17 [00:53<00:15,  3.82s/it]
+2024-08-08 16:26:41 | ERROR | stderr |  82%|████████▏ | 14/17 [00:57<00:11,  3.82s/it]
+2024-08-08 16:26:43 | ERROR | stderr |  88%|████████▊ | 15/17 [00:59<00:06,  3.20s/it]
+2024-08-08 16:26:47 | ERROR | stderr |  94%|█████████▍| 16/17 [01:02<00:03,  3.37s/it]
+2024-08-08 16:26:51 | ERROR | stderr | 100%|██████████| 17/17 [01:07<00:00,  3.61s/it]
+2024-08-08 16:26:51 | ERROR | stderr | 100%|██████████| 17/17 [01:07<00:00,  3.94s/it]
+2024-08-08 16:26:51 | ERROR | stderr | 
+2024-08-08 16:26:51 | INFO | model_worker | Register to controller
+2024-08-08 16:26:51 | ERROR | stderr | INFO:     Started server process [202]
+2024-08-08 16:26:51 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-08-08 16:26:51 | ERROR | stderr | INFO:     Application startup complete.
+2024-08-08 16:26:51 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:7801 (Press CTRL+C to quit)
+2024-08-08 16:27:36 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: None. call_ct: 0. worker_id: bb9fc213. 
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59372 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59376 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59378 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59390 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59402 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59414 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59426 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59432 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59448 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59462 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59466 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59468 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59470 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59482 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59496 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59504 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59512 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59522 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59526 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59538 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59542 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59546 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59562 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59568 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59574 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59586 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59596 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59604 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59620 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59636 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59638 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59650 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59652 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59666 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59668 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59682 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59688 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59692 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59702 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59704 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59706 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59708 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59718 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59722 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59724 - "POST /worker_get_conv_template HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59730 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59732 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-08 16:28:18 | INFO | stdout | INFO:     127.0.0.1:59736 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-08-08 16:28:21 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: Semaphore(value=4, locked=False). call_ct: 1. worker_id: bb9fc213. 
+2024-08-08 16:29:06 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 1. worker_id: bb9fc213. 
+2024-08-08 16:29:51 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 1. worker_id: bb9fc213. 
+2024-08-08 16:30:36 | INFO | model_worker | Send heart beat. Models: ['Qwen1.5-32B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 1. worker_id: bb9fc213. 

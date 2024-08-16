@@ -1,0 +1,25 @@
+2024-06-25 15:52:36 | INFO | model_worker | args: Namespace(host='0.0.0.0', port=7801, worker_address='http://0.0.0.0:7801', controller_address='http://0.0.0.0:7800', model_path='/model_repos/CustomLLM/Qwen-14B-Chat', revision='main', device='cuda', gpus='0', num_gpus=1, max_gpu_memory=None, dtype='bfloat16', load_8bit=True, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, enable_exllama=False, exllama_max_seq_len=4096, exllama_gpu_split=None, exllama_cache_8bit=False, enable_xft=False, xft_max_seq_len=4096, xft_dtype=None, model_names=None, conv_template='qwen-7b-chat', embed_in_truncate=False, limit_worker_concurrency=5, stream_interval=2, no_register=False, seed=None, debug=False, ssl=False)
+2024-06-25 15:52:36 | INFO | model_worker | Loading the model ['Qwen-14B-Chat'] on worker 67334e26 ...
+2024-06-25 15:52:37 | ERROR | stderr | /usr/local/lib/python3.10/dist-packages/transformers/modeling_utils.py:4371: FutureWarning: `_is_quantized_training_enabled` is going to be deprecated in transformers 4.39.0. Please use `model.hf_quantizer.is_trainable` instead
+2024-06-25 15:52:37 | ERROR | stderr |   warnings.warn(
+2024-06-25 15:52:37 | ERROR | stderr |   0%|          | 0/15 [00:00<?, ?it/s]
+2024-06-25 15:52:37 | ERROR | stderr |   0%|          | 0/15 [00:00<?, ?it/s]
+2024-06-25 15:52:37 | ERROR | stderr | 
+2024-06-25 15:52:37 | ERROR | stderr | Traceback (most recent call last):
+2024-06-25 15:52:37 | ERROR | stderr |   File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+2024-06-25 15:52:37 | ERROR | stderr |     return _run_code(code, main_globals, None,
+2024-06-25 15:52:37 | ERROR | stderr |   File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+2024-06-25 15:52:37 | ERROR | stderr |     exec(code, run_globals)
+2024-06-25 15:52:37 | ERROR | stderr |   File "/usr/local/lib/python3.10/dist-packages/fastchat/serve/model_worker.py", line 375, in <module>
+2024-06-25 15:52:37 | ERROR | stderr |     args, worker = create_model_worker()
+2024-06-25 15:52:37 | ERROR | stderr |   File "/usr/local/lib/python3.10/dist-packages/fastchat/serve/model_worker.py", line 346, in create_model_worker
+2024-06-25 15:52:37 | ERROR | stderr |     worker = ModelWorker(
+2024-06-25 15:52:37 | ERROR | stderr |   File "/usr/local/lib/python3.10/dist-packages/fastchat/serve/model_worker.py", line 77, in __init__
+2024-06-25 15:52:37 | ERROR | stderr |     self.model, self.tokenizer = load_model(
+2024-06-25 15:52:37 | ERROR | stderr |   File "/usr/local/lib/python3.10/dist-packages/fastchat/model/model_adapter.py", line 277, in load_model
+2024-06-25 15:52:37 | ERROR | stderr |     model, tokenizer = adapter.load_compress_model(
+2024-06-25 15:52:37 | ERROR | stderr |   File "/usr/local/lib/python3.10/dist-packages/fastchat/model/model_adapter.py", line 111, in load_compress_model
+2024-06-25 15:52:37 | ERROR | stderr |     return load_compress_model(
+2024-06-25 15:52:37 | ERROR | stderr |   File "/usr/local/lib/python3.10/dist-packages/fastchat/model/compression.py", line 194, in load_compress_model
+2024-06-25 15:52:37 | ERROR | stderr |     tensor = tmp_state_dict[name].to(device, dtype=torch_dtype)
+2024-06-25 15:52:37 | ERROR | stderr | torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.45 GiB. GPU 0 has a total capacty of 47.54 GiB of which 1.41 GiB is free. Process 2035663 has 45.85 GiB memory in use. Process 2136535 has 260.00 MiB memory in use. Of the allocated memory 0 bytes is allocated by PyTorch, and 0 bytes is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

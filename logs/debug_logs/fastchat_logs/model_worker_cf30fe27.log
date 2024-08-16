@@ -1,0 +1,28 @@
+2024-04-30 16:56:29 | INFO | model_worker | args: Namespace(host='0.0.0.0', port=7801, worker_address='http://0.0.0.0:7801', controller_address='http://0.0.0.0:7800', model_path='/model_repos/CustomLLM/Qwen-14B-Chat', revision='main', device='cuda', gpus='2', num_gpus=1, max_gpu_memory=None, dtype='bfloat16', load_8bit=True, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, enable_exllama=False, exllama_max_seq_len=4096, exllama_gpu_split=None, exllama_cache_8bit=False, enable_xft=False, xft_max_seq_len=4096, xft_dtype=None, model_names=None, conv_template='qwen-7b-chat', embed_in_truncate=False, limit_worker_concurrency=5, stream_interval=2, no_register=False, seed=None, debug=False, ssl=False)
+2024-04-30 16:56:29 | INFO | model_worker | Loading the model ['Qwen-14B-Chat'] on worker cf30fe27 ...
+2024-04-30 16:56:30 | ERROR | stderr | Traceback (most recent call last):
+2024-04-30 16:56:30 | ERROR | stderr |   File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+2024-04-30 16:56:30 | ERROR | stderr |     return _run_code(code, main_globals, None,
+2024-04-30 16:56:30 | ERROR | stderr |   File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+2024-04-30 16:56:30 | ERROR | stderr |     exec(code, run_globals)
+2024-04-30 16:56:30 | ERROR | stderr |   File "/usr/local/lib/python3.10/dist-packages/fastchat/serve/model_worker.py", line 375, in <module>
+2024-04-30 16:56:30 | ERROR | stderr |     args, worker = create_model_worker()
+2024-04-30 16:56:30 | ERROR | stderr |   File "/usr/local/lib/python3.10/dist-packages/fastchat/serve/model_worker.py", line 346, in create_model_worker
+2024-04-30 16:56:30 | ERROR | stderr |     worker = ModelWorker(
+2024-04-30 16:56:30 | ERROR | stderr |   File "/usr/local/lib/python3.10/dist-packages/fastchat/serve/model_worker.py", line 77, in __init__
+2024-04-30 16:56:30 | ERROR | stderr |     self.model, self.tokenizer = load_model(
+2024-04-30 16:56:30 | ERROR | stderr |   File "/usr/local/lib/python3.10/dist-packages/fastchat/model/model_adapter.py", line 277, in load_model
+2024-04-30 16:56:30 | ERROR | stderr |     model, tokenizer = adapter.load_compress_model(
+2024-04-30 16:56:30 | ERROR | stderr |   File "/usr/local/lib/python3.10/dist-packages/fastchat/model/model_adapter.py", line 111, in load_compress_model
+2024-04-30 16:56:30 | ERROR | stderr |     return load_compress_model(
+2024-04-30 16:56:30 | ERROR | stderr |   File "/usr/local/lib/python3.10/dist-packages/fastchat/model/compression.py", line 138, in load_compress_model
+2024-04-30 16:56:30 | ERROR | stderr |     model = AutoModelForCausalLM.from_config(config, trust_remote_code=True)
+2024-04-30 16:56:30 | ERROR | stderr |   File "/usr/local/lib/python3.10/dist-packages/transformers/models/auto/auto_factory.py", line 432, in from_config
+2024-04-30 16:56:30 | ERROR | stderr |     model_class = get_class_from_dynamic_module(class_ref, repo_id, **kwargs)
+2024-04-30 16:56:30 | ERROR | stderr |   File "/usr/local/lib/python3.10/dist-packages/transformers/dynamic_module_utils.py", line 488, in get_class_from_dynamic_module
+2024-04-30 16:56:30 | ERROR | stderr |     final_module = get_cached_module_file(
+2024-04-30 16:56:30 | ERROR | stderr |   File "/usr/local/lib/python3.10/dist-packages/transformers/dynamic_module_utils.py", line 315, in get_cached_module_file
+2024-04-30 16:56:30 | ERROR | stderr |     modules_needed = check_imports(resolved_module_file)
+2024-04-30 16:56:30 | ERROR | stderr |   File "/usr/local/lib/python3.10/dist-packages/transformers/dynamic_module_utils.py", line 180, in check_imports
+2024-04-30 16:56:30 | ERROR | stderr |     raise ImportError(
+2024-04-30 16:56:30 | ERROR | stderr | ImportError: This modeling file requires the following packages that were not found in your environment: transformers_stream_generator. Run `pip install transformers_stream_generator`

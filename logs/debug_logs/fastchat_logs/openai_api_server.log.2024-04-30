@@ -1,0 +1,175 @@
+2024-04-30 16:48:21 | INFO | openai_api_server | args: Namespace(host='0.0.0.0', port=7802, controller_address='http://0.0.0.0:7800', allow_credentials=False, allowed_origins=['*'], allowed_methods=['*'], allowed_headers=['*'], api_keys=None, ssl=False)
+2024-04-30 16:48:21 | ERROR | stderr | INFO:     Started server process [198]
+2024-04-30 16:48:21 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-04-30 16:48:21 | ERROR | stderr | INFO:     Application startup complete.
+2024-04-30 16:48:21 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:7802 (Press CTRL+C to quit)
+2024-04-30 16:52:45 | INFO | openai_api_server | args: Namespace(host='0.0.0.0', port=7802, controller_address='http://0.0.0.0:7800', allow_credentials=False, allowed_origins=['*'], allowed_methods=['*'], allowed_headers=['*'], api_keys=None, ssl=False)
+2024-04-30 16:52:45 | ERROR | stderr | INFO:     Started server process [201]
+2024-04-30 16:52:45 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-04-30 16:52:45 | ERROR | stderr | INFO:     Application startup complete.
+2024-04-30 16:52:45 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:7802 (Press CTRL+C to quit)
+2024-04-30 16:56:28 | INFO | openai_api_server | args: Namespace(host='0.0.0.0', port=7802, controller_address='http://0.0.0.0:7800', allow_credentials=False, allowed_origins=['*'], allowed_methods=['*'], allowed_headers=['*'], api_keys=None, ssl=False)
+2024-04-30 16:56:28 | ERROR | stderr | INFO:     Started server process [201]
+2024-04-30 16:56:28 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-04-30 16:56:28 | ERROR | stderr | INFO:     Application startup complete.
+2024-04-30 16:56:28 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:7802 (Press CTRL+C to quit)
+2024-04-30 17:00:23 | INFO | openai_api_server | args: Namespace(host='0.0.0.0', port=7802, controller_address='http://0.0.0.0:7800', allow_credentials=False, allowed_origins=['*'], allowed_methods=['*'], allowed_headers=['*'], api_keys=None, ssl=False)
+2024-04-30 17:00:23 | ERROR | stderr | INFO:     Started server process [201]
+2024-04-30 17:00:23 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-04-30 17:00:23 | ERROR | stderr | INFO:     Application startup complete.
+2024-04-30 17:00:23 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:7802 (Press CTRL+C to quit)
+2024-04-30 17:01:42 | INFO | openai_api_server | args: Namespace(host='0.0.0.0', port=7802, controller_address='http://0.0.0.0:7800', allow_credentials=False, allowed_origins=['*'], allowed_methods=['*'], allowed_headers=['*'], api_keys=None, ssl=False)
+2024-04-30 17:01:42 | ERROR | stderr | INFO:     Started server process [201]
+2024-04-30 17:01:42 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-04-30 17:01:42 | ERROR | stderr | INFO:     Application startup complete.
+2024-04-30 17:01:42 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:7802 (Press CTRL+C to quit)
+2024-04-30 17:04:12 | INFO | openai_api_server | args: Namespace(host='0.0.0.0', port=7802, controller_address='http://0.0.0.0:7800', allow_credentials=False, allowed_origins=['*'], allowed_methods=['*'], allowed_headers=['*'], api_keys=None, ssl=False)
+2024-04-30 17:04:12 | ERROR | stderr | INFO:     Started server process [201]
+2024-04-30 17:04:12 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-04-30 17:04:12 | ERROR | stderr | INFO:     Application startup complete.
+2024-04-30 17:04:12 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:7802 (Press CTRL+C to quit)
+2024-04-30 17:21:52 | INFO | openai_api_server | args: Namespace(host='0.0.0.0', port=7802, controller_address='http://0.0.0.0:7800', allow_credentials=False, allowed_origins=['*'], allowed_methods=['*'], allowed_headers=['*'], api_keys=None, ssl=False)
+2024-04-30 17:21:52 | ERROR | stderr | INFO:     Started server process [201]
+2024-04-30 17:21:52 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-04-30 17:21:52 | ERROR | stderr | INFO:     Application startup complete.
+2024-04-30 17:21:52 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:7802 (Press CTRL+C to quit)
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:58996 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59004 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59010 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59020 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59032 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59048 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59064 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59072 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59084 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59100 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59106 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59122 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59124 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59126 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59142 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59144 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59154 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59162 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:54 | INFO | stdout | INFO:     127.0.0.1:59166 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:55 | INFO | stdout | INFO:     127.0.0.1:59180 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:55 | INFO | stdout | INFO:     127.0.0.1:59184 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:24:55 | INFO | stdout | INFO:     127.0.0.1:59188 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-30 17:25:29 | INFO | stdout | INFO:     127.0.0.1:35100 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:29 | INFO | stdout | INFO:     127.0.0.1:35108 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:29 | INFO | stdout | INFO:     127.0.0.1:35114 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:29 | INFO | stdout | INFO:     127.0.0.1:35124 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:29 | INFO | stdout | INFO:     127.0.0.1:35132 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35142 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35144 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35160 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35172 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35186 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35190 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35194 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35208 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35210 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35214 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35220 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35226 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35240 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35250 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35252 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35254 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:30 | INFO | stdout | INFO:     127.0.0.1:35260 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-30 17:25:37 | INFO | stdout | INFO:     127.0.0.1:42084 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:37 | INFO | stdout | INFO:     127.0.0.1:42088 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:37 | INFO | stdout | INFO:     127.0.0.1:42092 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:37 | INFO | stdout | INFO:     127.0.0.1:42102 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:37 | INFO | stdout | INFO:     127.0.0.1:42108 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:37 | INFO | stdout | INFO:     127.0.0.1:42116 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:37 | INFO | stdout | INFO:     127.0.0.1:42120 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:37 | INFO | stdout | INFO:     127.0.0.1:42136 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:37 | INFO | stdout | INFO:     127.0.0.1:42146 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:37 | INFO | stdout | INFO:     127.0.0.1:42154 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:37 | INFO | stdout | INFO:     127.0.0.1:42166 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:37 | INFO | stdout | INFO:     127.0.0.1:42172 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:37 | INFO | stdout | INFO:     127.0.0.1:42182 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:37 | INFO | stdout | INFO:     127.0.0.1:42194 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:38 | INFO | stdout | INFO:     127.0.0.1:42198 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:38 | INFO | stdout | INFO:     127.0.0.1:42212 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:38 | INFO | stdout | INFO:     127.0.0.1:42224 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:38 | INFO | stdout | INFO:     127.0.0.1:42240 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:38 | INFO | stdout | INFO:     127.0.0.1:42246 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:38 | INFO | stdout | INFO:     127.0.0.1:42256 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:38 | INFO | stdout | INFO:     127.0.0.1:42272 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:25:38 | INFO | stdout | INFO:     127.0.0.1:42284 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:47960 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:47974 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:47982 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:47994 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48000 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48002 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48014 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48024 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48028 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48036 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48042 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48056 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48058 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48074 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48078 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48090 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48100 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48108 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48116 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48118 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48122 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48124 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48132 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:26:44 | INFO | stdout | INFO:     127.0.0.1:48144 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48082 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48090 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48100 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48104 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48116 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48118 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48134 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48138 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48146 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48152 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48168 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48178 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48188 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48194 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48196 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48212 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48224 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48232 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48244 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48256 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48258 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48264 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48268 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:27:58 | INFO | stdout | INFO:     127.0.0.1:48272 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48564 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48572 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48582 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48584 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48594 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48596 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48608 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48622 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48626 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48640 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48646 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48650 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48656 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48670 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48682 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48694 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48706 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48718 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48728 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48732 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48744 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48760 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48776 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48782 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48788 - "POST /api/v1/token_check HTTP/1.1" 200 OK
+2024-04-30 17:30:52 | INFO | stdout | INFO:     127.0.0.1:48792 - "POST /v1/chat/completions HTTP/1.1" 200 OK

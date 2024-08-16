@@ -1,0 +1,27 @@
+2024-05-22 20:48:51 | INFO | controller | args: Namespace(host='0.0.0.0', port=7800, dispatch_method='shortest_queue', ssl=False)
+2024-05-22 20:48:51 | ERROR | stderr | INFO:     Started server process [200]
+2024-05-22 20:48:51 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-05-22 20:48:51 | ERROR | stderr | INFO:     Application startup complete.
+2024-05-22 20:48:51 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:7800 (Press CTRL+C to quit)
+2024-05-22 20:49:08 | INFO | stdout | INFO:     127.0.0.1:47776 - "POST /list_models HTTP/1.1" 200 OK
+2024-05-22 20:49:18 | INFO | stdout | INFO:     127.0.0.1:38440 - "POST /list_models HTTP/1.1" 200 OK
+2024-05-22 20:49:28 | INFO | stdout | INFO:     127.0.0.1:40890 - "POST /list_models HTTP/1.1" 200 OK
+2024-05-22 20:49:38 | INFO | stdout | INFO:     127.0.0.1:41564 - "POST /list_models HTTP/1.1" 200 OK
+2024-05-22 20:49:40 | INFO | controller | Register a new worker: http://0.0.0.0:7801
+2024-05-22 20:49:40 | INFO | controller | Register done: http://0.0.0.0:7801, {'model_names': ['Qwen-14B-Chat'], 'speed': 1, 'queue_length': 0}
+2024-05-22 20:49:40 | INFO | stdout | INFO:     127.0.0.1:41578 - "POST /register_worker HTTP/1.1" 200 OK
+2024-05-22 20:49:48 | INFO | stdout | INFO:     127.0.0.1:33136 - "POST /list_models HTTP/1.1" 200 OK
+2024-05-22 20:50:25 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-05-22 20:50:25 | INFO | stdout | INFO:     127.0.0.1:36292 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-05-22 20:51:10 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-05-22 20:51:10 | INFO | stdout | INFO:     127.0.0.1:52968 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-05-22 20:51:55 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-05-22 20:51:55 | INFO | stdout | INFO:     127.0.0.1:40276 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-05-22 20:52:40 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-05-22 20:52:40 | INFO | stdout | INFO:     127.0.0.1:54354 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-05-22 20:53:25 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-05-22 20:53:25 | INFO | stdout | INFO:     127.0.0.1:59996 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-05-22 20:54:10 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-05-22 20:54:10 | INFO | stdout | INFO:     127.0.0.1:59774 - "POST /receive_heart_beat HTTP/1.1" 200 OK
+2024-05-22 20:54:55 | INFO | controller | Receive heart beat. http://0.0.0.0:7801
+2024-05-22 20:54:55 | INFO | stdout | INFO:     127.0.0.1:38790 - "POST /receive_heart_beat HTTP/1.1" 200 OK

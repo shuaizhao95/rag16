@@ -1,0 +1,312 @@
+2024-08-06 09:07:43 | INFO | model_worker | args: Namespace(host='0.0.0.0', port=7801, worker_address='http://0.0.0.0:7801', controller_address='http://0.0.0.0:7800', model_path='/model_repos/CustomLLM/Qwen-14B-Chat', revision='main', device='cuda', gpus='3', num_gpus=1, max_gpu_memory=None, dtype='bfloat16', load_8bit=True, cpu_offloading=False, gptq_ckpt=None, gptq_wbits=16, gptq_groupsize=-1, gptq_act_order=False, awq_ckpt=None, awq_wbits=16, awq_groupsize=-1, enable_exllama=False, exllama_max_seq_len=4096, exllama_gpu_split=None, exllama_cache_8bit=False, enable_xft=False, xft_max_seq_len=4096, xft_dtype=None, model_names=None, conv_template='qwen-7b-chat', embed_in_truncate=False, limit_worker_concurrency=5, stream_interval=2, no_register=False, seed=None, debug=False, ssl=False)
+2024-08-06 09:07:43 | INFO | model_worker | Loading the model ['Qwen-14B-Chat'] on worker fe84f112 ...
+2024-08-06 09:07:44 | ERROR | stderr | /usr/local/lib/python3.10/dist-packages/transformers/modeling_utils.py:4371: FutureWarning: `_is_quantized_training_enabled` is going to be deprecated in transformers 4.39.0. Please use `model.hf_quantizer.is_trainable` instead
+2024-08-06 09:07:44 | ERROR | stderr |   warnings.warn(
+2024-08-06 09:07:44 | ERROR | stderr |   0%|          | 0/15 [00:00<?, ?it/s]
+2024-08-06 09:07:45 | ERROR | stderr |   7%|▋         | 1/15 [00:01<00:14,  1.02s/it]
+2024-08-06 09:07:48 | ERROR | stderr |  13%|█▎        | 2/15 [00:03<00:22,  1.76s/it]
+2024-08-06 09:07:49 | ERROR | stderr |  20%|██        | 3/15 [00:05<00:21,  1.80s/it]
+2024-08-06 09:07:52 | ERROR | stderr |  27%|██▋       | 4/15 [00:07<00:21,  1.99s/it]
+2024-08-06 09:07:59 | ERROR | stderr |  33%|███▎      | 5/15 [00:14<00:37,  3.71s/it]
+2024-08-06 09:08:01 | ERROR | stderr |  40%|████      | 6/15 [00:16<00:30,  3.33s/it]
+2024-08-06 09:08:03 | ERROR | stderr |  47%|████▋     | 7/15 [00:19<00:23,  2.98s/it]
+2024-08-06 09:08:06 | ERROR | stderr |  53%|█████▎    | 8/15 [00:21<00:19,  2.80s/it]
+2024-08-06 09:08:08 | ERROR | stderr |  60%|██████    | 9/15 [00:23<00:16,  2.69s/it]
+2024-08-06 09:08:10 | ERROR | stderr |  67%|██████▋   | 10/15 [00:26<00:12,  2.54s/it]
+2024-08-06 09:08:13 | ERROR | stderr |  73%|███████▎  | 11/15 [00:28<00:10,  2.56s/it]
+2024-08-06 09:08:16 | ERROR | stderr |  80%|████████  | 12/15 [00:31<00:07,  2.59s/it]
+2024-08-06 09:08:18 | ERROR | stderr |  87%|████████▋ | 13/15 [00:34<00:05,  2.62s/it]
+2024-08-06 09:08:21 | ERROR | stderr |  93%|█████████▎| 14/15 [00:36<00:02,  2.52s/it]
+2024-08-06 09:08:23 | ERROR | stderr | 100%|██████████| 15/15 [00:38<00:00,  2.54s/it]
+2024-08-06 09:08:23 | ERROR | stderr | 100%|██████████| 15/15 [00:38<00:00,  2.60s/it]
+2024-08-06 09:08:23 | ERROR | stderr | 
+2024-08-06 09:08:23 | INFO | model_worker | Register to controller
+2024-08-06 09:08:23 | ERROR | stderr | INFO:     Started server process [202]
+2024-08-06 09:08:23 | ERROR | stderr | INFO:     Waiting for application startup.
+2024-08-06 09:08:23 | ERROR | stderr | INFO:     Application startup complete.
+2024-08-06 09:08:23 | ERROR | stderr | INFO:     Uvicorn running on http://0.0.0.0:7801 (Press CTRL+C to quit)
+2024-08-06 09:09:08 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:09:53 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:10:38 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:11:23 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:12:08 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:12:53 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:13:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:14:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:15:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:15:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:16:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:17:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:18:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:18:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:19:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:20:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:21:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:21:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:22:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:23:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:24:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:24:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:25:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:26:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:27:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:27:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:28:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:29:24 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:30:09 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:30:54 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:31:39 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:32:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:33:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:33:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:34:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:35:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:36:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:36:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:37:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:38:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:39:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:39:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:40:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:41:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:42:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:42:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:43:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:44:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:45:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:45:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:46:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:47:25 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:48:10 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:48:55 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:49:40 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:50:26 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:51:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:51:56 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:52:41 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:53:26 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:54:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: None. call_ct: 0. worker_id: fe84f112. 
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56598 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56612 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56628 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56640 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56652 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56662 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56666 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56674 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56688 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56694 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56710 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56724 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56738 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56742 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56750 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56760 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56762 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56772 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56786 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56800 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56814 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56818 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56820 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56836 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56842 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56850 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56862 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56874 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56878 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56886 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56902 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56904 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56914 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56928 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56938 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56944 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56952 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56964 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56972 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56986 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:56994 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:57006 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:57016 - "POST /worker_get_conv_template HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:57028 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:57040 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:25 | INFO | stdout | INFO:     127.0.0.1:57044 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-08-06 09:54:56 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 1. worker_id: fe84f112. 
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34452 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34468 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34476 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34488 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34498 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34514 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34522 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34524 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34528 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34542 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34548 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34554 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34570 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34574 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34578 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34584 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34586 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34594 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34606 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34618 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34624 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34628 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34642 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34646 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34656 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34670 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34684 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34686 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34694 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34704 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34708 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34720 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34724 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34726 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34740 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34750 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34752 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34766 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34772 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34786 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34794 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34808 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34818 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34828 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:54:57 | INFO | stdout | INFO:     127.0.0.1:34834 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-08-06 09:55:41 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 2. worker_id: fe84f112. 
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46204 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46214 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46228 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46238 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46240 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46252 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46258 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46268 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46284 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46292 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46302 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46316 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46322 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46326 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46332 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46336 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46342 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46344 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46352 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46368 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46370 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46382 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46392 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46398 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46408 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46424 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46428 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46436 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46444 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46458 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46470 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46476 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46484 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46500 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46514 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46524 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46526 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46540 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46544 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46550 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46556 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46568 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46574 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46580 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:20 | INFO | stdout | INFO:     127.0.0.1:46592 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-08-06 09:56:26 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=4, locked=False). call_ct: 3. worker_id: fe84f112. 
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43702 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43706 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43712 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43720 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43726 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43728 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43734 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43742 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43748 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43752 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43756 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43772 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43780 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43784 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43798 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43806 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43820 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43836 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43838 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43842 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43858 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43866 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43872 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43878 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43888 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43904 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43920 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43922 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43924 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43932 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:56:55 | INFO | stdout | INFO:     127.0.0.1:43936 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-08-06 09:57:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=4, locked=False). call_ct: 4. worker_id: fe84f112. 
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40594 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40600 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40604 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40606 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40614 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40618 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40622 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40624 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40636 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40642 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40646 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40662 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40664 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40680 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40684 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40690 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40702 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40716 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40720 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40732 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40740 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40752 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40766 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40774 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40788 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40800 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40814 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40820 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40826 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40842 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40854 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40864 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40870 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40874 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40888 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40892 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40906 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40914 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40930 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40942 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40956 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40972 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40978 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40984 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:40990 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:41004 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:41010 - "POST /model_details HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:41026 - "POST /count_token HTTP/1.1" 200 OK
+2024-08-06 09:57:44 | INFO | stdout | INFO:     127.0.0.1:41034 - "POST /worker_generate_stream HTTP/1.1" 200 OK
+2024-08-06 09:57:56 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=4, locked=False). call_ct: 5. worker_id: fe84f112. 
+2024-08-06 09:58:41 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 5. worker_id: fe84f112. 
+2024-08-06 09:59:26 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 5. worker_id: fe84f112. 
+2024-08-06 10:00:11 | INFO | model_worker | Send heart beat. Models: ['Qwen-14B-Chat']. Semaphore: Semaphore(value=5, locked=False). call_ct: 5. worker_id: fe84f112. 
